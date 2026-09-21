@@ -42,8 +42,8 @@
             error.style.display = "block";
             constituencySelect.value = "default";
           } else {
-          let constituencyString = data.result.parliamentary_constituency.toString();
-          getConstituencyData(constituencyString);
+            let constituencyString = data.result.parliamentary_constituency.toString();
+            getConstituencyData(constituencyString);
           }
         }
         )
@@ -66,6 +66,8 @@
       upto52weeks.innerHTML = constituencyData.upto52weeks_pct;
       over52weeks.innerHTML = constituencyData.over52weeks_pct;
       loading.style.display = "none";
+      error.style.display = "none";
+      error.innerHTML = "";
       output.style.display = "block";
     }
 
