@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Assign variables to page elements.
+      const hero = document.querySelector("#hero");
+      const tool = document.querySelector("#tool");
+      const output = document.querySelector("#output");
+      const postcodeBox = document.querySelector("#postcodeBox");
+      const constituencySelect = document.querySelector("#constituencySelect");
+      const error = document.querySelector("#error");
+      const loading = document.querySelector("#loading");
+      const constituencyName = document.querySelector("#constituencyName");
+      const constituencyName2 = document.querySelector("#constituencyName2");
+      const sendTotal = document.querySelector("#sendTotal");
+      const echpTotal = document.querySelector("#echpTotal");
+      const echpNumber = document.querySelector("#echpNumber");
+      const otherSendTotal = document.querySelector("#otherSendTotal");
+      const otherSendNumber = document.querySelector("#otherSendNumber");
+      const upto20weeks = document.querySelector("#upto20weeks");
+      const upto52weeks = document.querySelector("#upto52weeks");
+      const over52weeks = document.querySelector("#over52weeks");
+
+      const dataSet = {"constituencyData": {
+          "Barking": {
+            "constituency": "Barking", "sendTotal": 1234, "echpTotal": 5, "echpNumber": 60, "otherSendTotal": 14, "otherSendNumber": 197, "upto20weeks": 26.0, "upto52weeks": 69.9, "over52weeks": 4.2
+          },
+          "Sheffield Heeley": {
+            "constituency": "Sheffield Heeley", "sendTotal": 2468, "echpTotal": 6, "echpNumber": 72, "otherSendTotal": 13, "otherSendNumber": 185, "upto20weeks": 24.0, "upto52weeks": 71.2, "over52weeks": 3.8
+          },
+          "Clapham and Brixton Hill": {
+            "constituency": "Clapham and Brixton Hill", "sendTotal": 3692, "echpTotal": 5, "echpNumber": 55, "otherSendTotal": 12, "otherSendNumber": 163, "upto20weeks": 25.0, "upto52weeks": 70.4, "over52weeks": 4.6
+          }
+        }
+      }
+
+      // Defines the function for checking postcodes.
+      function getConstituencyName(postcode) {
+      fetch(`https://api.postcodes.io/postcodes/${postcodeBox.value}`)
+        .then(res => res.json())
+        .then(data => {
+          console.log(data);
+          if(data.status != 200) {
+            error.innerHTML = "Sorry, looks like that's an invalid postcode."
+            error.style.display = "block";
+          } else {
+          let constituencyString = data.result.parliamentary_constituency.toString();
+          getConstituencyData(constituencyString);
+          }
+        }
+        )
+    }
+
+    // Defines the function for getting JSON data based on constituency name.
+    function getConstituencyData(constituencyString) {
+      loading.style.display = "block";
+      constituencyName.innerHTML = constituencyString;
+      constituencyName2.innerHTML = constituencyString;
+      let constituencyData = dataSet.constituencyData[constituencyString];
+      sendTotal.innerHTML = constituencyData.sendTotal;
+      echpTotal.innerHTML = constituencyData.echpTotal;
+      otherSendTotal.innerHTML = constituencyData.otherSendTotal;
+      echpNumber.innerHTML = constituencyData.echpNumber;
+      otherSendNumber.innerHTML = constituencyData.otherSendNumber;
+      upto20weeks.innerHTML = constituencyData.upto20weeks;
+      upto52weeks.innerHTML = constituencyData.upto52weeks;
+      over52weeks.innerHTML = constituencyData.over52weeks;
+      loading.style.display = "none";
+      output.style.display = "block";
+    }
+
+    // Tells Submit button to search for the postcode.
+      postcode.addEventListener("submit", e => {
+      // Stop page refreshing
+        e.preventDefault();
+        getConstituencyName(postcode);
+      });
+
+    // Tells constituency dropdown to search for the constituency.
+      constituencySelect.addEventListener("change", f => {
+        console.log(constituencySelect.value);
+      // Stop page refreshing
+        f.preventDefault();
+        let constituencyString = constituencySelect.value;
+        getConstituencyData(constituencyString);
+      });
+    });
+  </script>
+</head>
+<body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Assign variables to page elements.
+      const hero = document.querySelector("#hero");
+      const tool = document.querySelector("#tool");
+      const output = document.querySelector("#output");
+      const postcodeBox = document.querySelector("#postcodeBox");
+      const constituencySelect = document.querySelector("#constituencySelect");
+      const error = document.querySelector("#error");
+      const loading = document.querySelector("#loading");
+      const constituencyName = document.querySelector("#constituencyName");
+      const constituencyName2 = document.querySelector("#constituencyName2");
+      const sendTotal = document.querySelector("#sendTotal");
+      const echpTotal = document.querySelector("#echpTotal");
+      const echpNumber = document.querySelector("#echpNumber");
+      const otherSendTotal = document.querySelector("#otherSendTotal");
+      const otherSendNumber = document.querySelector("#otherSendNumber");
+      const upto20weeks = document.querySelector("#upto20weeks");
+      const upto52weeks = document.querySelector("#upto52weeks");
+      const over52weeks = document.querySelector("#over52weeks");
+
+      const dataSet = {"constituencyData": {
+          "Barking": {
+            "constituency": "Barking", "sendTotal": 1234, "echpTotal": 5, "echpNumber": 60, "otherSendTotal": 14, "otherSendNumber": 197, "upto20weeks": 26.0, "upto52weeks": 69.9, "over52weeks": 4.2
+          },
+          "Sheffield Heeley": {
+            "constituency": "Sheffield Heeley", "sendTotal": 2468, "echpTotal": 6, "echpNumber": 72, "otherSendTotal": 13, "otherSendNumber": 185, "upto20weeks": 24.0, "upto52weeks": 71.2, "over52weeks": 3.8
+          },
+          "Clapham and Brixton Hill": {
+            "constituency": "Clapham and Brixton Hill", "sendTotal": 3692, "echpTotal": 5, "echpNumber": 55, "otherSendTotal": 12, "otherSendNumber": 163, "upto20weeks": 25.0, "upto52weeks": 70.4, "over52weeks": 4.6
+          }
+        }
+      }
+
+      // Defines the function for checking postcodes.
+      function getConstituencyName(postcode) {
+      fetch(`https://api.postcodes.io/postcodes/${postcodeBox.value}`)
+        .then(res => res.json())
+        .then(data => {
+          console.log(data);
+          if(data.status != 200) {
+            error.innerHTML = "Sorry, looks like that's an invalid postcode."
+            error.style.display = "block";
+          } else {
+          let constituencyString = data.result.parliamentary_constituency.toString();
+          getConstituencyData(constituencyString);
+          }
+        }
+        )
+    }
+
+    // Defines the function for getting JSON data based on constituency name.
+    function getConstituencyData(constituencyString) {
+      loading.style.display = "block";
+      constituencyName.innerHTML = constituencyString;
+      constituencyName2.innerHTML = constituencyString;
+      let constituencyData = dataSet.constituencyData[constituencyString];
+      sendTotal.innerHTML = constituencyData.sendTotal;
+      echpTotal.innerHTML = constituencyData.echpTotal;
+      otherSendTotal.innerHTML = constituencyData.otherSendTotal;
+      echpNumber.innerHTML = constituencyData.echpNumber;
+      otherSendNumber.innerHTML = constituencyData.otherSendNumber;
+      upto20weeks.innerHTML = constituencyData.upto20weeks;
+      upto52weeks.innerHTML = constituencyData.upto52weeks;
+      over52weeks.innerHTML = constituencyData.over52weeks;
+      loading.style.display = "none";
+      output.style.display = "block";
+    }
+
+    // Tells Submit button to search for the postcode.
+      postcode.addEventListener("submit", e => {
+      // Stop page refreshing
+        e.preventDefault();
+        getConstituencyName(postcode);
+      });
+
+    // Tells constituency dropdown to search for the constituency.
+      constituencySelect.addEventListener("change", f => {
+        console.log(constituencySelect.value);
+      // Stop page refreshing
+        f.preventDefault();
+        let constituencyString = constituencySelect.value;
+        getConstituencyData(constituencyString);
+      });
+    });
+  </script>
+  <!-- Header area containing main header and brief explanation. -->
+  <div id="toolArea">
+  <div id="hero">
+    <h1>SEND support needs in your constituency</h1>
+    <p>2 million children across the UK need some kind of special educational needs (SEND) support at school. Enter your postcode, or choose your constituency from the list, to get the latest figures on SEND support in your area.</p>
+  </div>
+
+  <!-- Container for the postcode input box and constituency dropdown -->
+  <div id="tool">
+    <div id="form">
+      <form name="postcode" id="postcode">
+        <label for="postcodeBox">Enter your postcode:</label>
+        <input id="postcodeBox" type="text" name="postcode" minlength="5" maxlength="8" placeholder="Enter postcode" required >
+        <button name="submit" type="submit" id="button" form="postcode" value="Submit" cursor="pointer">Submit</button>
+        <label for="constituencySelect">Or choose your constituency:</label>
+        <select id="constituencySelect">
+          <option>Clapham and Brixton Hill</option>
+          <option>Sheffield Heeley</option>
+          <option>Barking</option>
+        </select>
+      </form>
+    </div>
+    <p id="error"></p>
+    <h1 id="loading">Loading...</h1>
+  </div>
+
+  <!-- Container for the tool's output -->
+  <div id="output">
+    <h2><span id="sendTotal"></span> children in <span id="constituencyName"></span> have been identified as having a special educational need or disability.</h2>
+    <p><span id="echpTotal"></span>% of children (about <span id="echpNumber"></span>) receive an ECHP, a legally binding plan for children with more complex needs.</p>
+    <p><span id="otherSendTotal"></span>% of all children (about <span id="otherSendNumber"></span>) receive Special Educational Needs support, which is supposed to be flexible support arranged by the school.</p>
+    <h3>Families in <span id="constituencyName2"></span> are waiting months for support.</h3>
+    <p><span id="upto20weeks"></span>% of children wait up to 20 weeks for an ECHP.</p>
+    <p><span id="upto52weeks"></span>% of children wait 20 to 52 weeks for an ECHP.</p>
+    <p><span id="over52weeks"></span>% of children wait more than a year for an ECHP.</p>
+  </div>
+</div>
+</body>
+<style>
+#toolArea h1,#toolArea h2,#toolArea h3,#toolArea h4,#toolArea h5,#toolArea h6 {
+  color: rgb(87, 87, 86);
+  font-family: "filson-soft", sans-serif;
+}
+#toolArea p, #toolArea label, #toolArea input {
+  font-family: "Gill Sans WGL W01 Regular", sans-serif;
+  color: rgb(87, 87, 86);
+}
+input, select, button {
+  padding: 10px;
+  border: 1px solid #53c1b1;
+  border-radius: 5px;
+}
+
+input:active, select:active, button:active {
+  border: 1px solid #ffc40c;
+}
+
+input:hover, select:hover, button:hover {
+  border: 1px solid #d62f88;
+}
+#loading {
+  display: none;
+}
+#output {
+  display: none;
+}
+
+</style>
+</html>
