@@ -32,7 +32,12 @@
         .then(data => {
           console.log(data);
           if(data.status != 200) {
+            output.style.display = "none";
             error.innerHTML = "Sorry, looks like that's an invalid postcode."
+            error.style.display = "block";
+          } else if (data.country !== "England") {
+            output.style.display = "none";
+            error.innerHTML = "Sorry, this tool can only provide data for constituencies in England. SEND provision in Wales, Scotland and Northern Ireland is a devolved matter."
             error.style.display = "block";
           } else {
           let constituencyString = data.result.parliamentary_constituency.toString();
