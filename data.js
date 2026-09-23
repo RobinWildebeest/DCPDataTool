@@ -2108,7 +2108,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "44.5%"
   },
   "Bristol Central": {
-    "council": "Bristol, City of",
+    "council": "Bristol",
     "childrentotal": "16,430",
     "sendchildrem": "3,098",
     "echp_all_children_pct": "2%",
@@ -2139,7 +2139,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol East": {
-    "council": "Bristol, City of",
+    "council": "Bristol",
     "childrentotal": "11,114",
     "sendchildrem": "2,350",
     "echp_all_children_pct": "4%",
@@ -2170,7 +2170,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol North East": {
-    "council": "Bristol, City of",
+    "council": "Bristol",
     "childrentotal": "15,716",
     "sendchildrem": "3,412",
     "echp_all_children_pct": "6%",
@@ -2201,7 +2201,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol North West": {
-    "council": "Bristol, City of",
+    "council": "Bristol",
     "childrentotal": "15,645",
     "sendchildrem": "3,443",
     "echp_all_children_pct": "6%",
@@ -2232,7 +2232,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol South": {
-    "council": "Bristol, City of",
+    "council": "Bristol",
     "childrentotal": "16,898",
     "sendchildrem": "4,134",
     "echp_all_children_pct": "7%",
@@ -7750,7 +7750,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "23.6%"
   },
   "Kingston upon Hull East": {
-    "council": "Kingston upon Hull, City of",
+    "council": "Hull",
     "childrentotal": "17,564",
     "sendchildrem": "3,762",
     "echp_all_children_pct": "6%",
@@ -7781,7 +7781,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "68.5%"
   },
   "Kingston upon Hull North and Cottingham": {
-    "council": "Kingston upon Hull, City of",
+    "council": "Hull",
     "childrentotal": "20,178",
     "sendchildrem": "3,890",
     "echp_all_children_pct": "5%",
@@ -7812,7 +7812,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "68.5%"
   },
   "Kingston upon Hull West and Haltemprice": {
-    "council": "Kingston upon Hull, City of",
+    "council": "Hull",
     "childrentotal": "15,276",
     "sendchildrem": "3,334",
     "echp_all_children_pct": "7%",
