@@ -868,7 +868,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "45.3%"
   },
   "Birkenhead": {
-    "council": "Wirral",
+    "council": "the Wirral",
     "childrentotal": "19,756",
     "sendchildrem": "4,483",
     "echp_all_children_pct": "5%",
