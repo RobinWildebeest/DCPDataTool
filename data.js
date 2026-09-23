@@ -6758,7 +6758,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "45.3%"
   },
   "Hereford and South Herefordshire": {
-    "council": "Herefordshire, County of",
+    "council": "Herefordshire",
     "childrentotal": "14,557",
     "sendchildrem": "3,134",
     "echp_all_children_pct": "5%",
@@ -10292,7 +10292,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "12.8%"
   },
   "North Herefordshire": {
-    "council": "Herefordshire, County of",
+    "council": "Herefordshire",
     "childrentotal": "10,516",
     "sendchildrem": "2,312",
     "echp_all_children_pct": "5%",
