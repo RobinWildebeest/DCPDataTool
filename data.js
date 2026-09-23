@@ -895,7 +895,7 @@ const dataSet = { "constituencyData": {
     "4months": "1217",
     "appeal_rate_2025": "6.9",
     "quote": "“Delayed and missing Health (and Social Care) provision deeply affects many young people's ability to engage in education and can often prevent this altogether, for months or years. We have experienced this ourselves including delays measured in years and resulting escalations in needs. There is no point having a shiny new SEND system if Health  - and Social Care - do not share equal responsibility for provision and support; the result will be continued trauma and distress for families and the tragedy of young people denied the opportunities for development and fulfilment that their peers have.”",
-    "parent_location": "The Wirral",
+    "parent_location": "the Wirral",
     "4months_pct": "91.6%"
   },
   "Birmingham Edgbaston": {
@@ -2108,7 +2108,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "44.5%"
   },
   "Bristol Central": {
-    "council": "Bristol",
+    "council": "Bristol, City of",
     "childrentotal": "16,430",
     "sendchildrem": "3,098",
     "echp_all_children_pct": "2%",
@@ -2139,7 +2139,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol East": {
-    "council": "Bristol",
+    "council": "Bristol, City of",
     "childrentotal": "11,114",
     "sendchildrem": "2,350",
     "echp_all_children_pct": "4%",
@@ -2170,7 +2170,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol North East": {
-    "council": "Bristol",
+    "council": "Bristol, City of",
     "childrentotal": "15,716",
     "sendchildrem": "3,412",
     "echp_all_children_pct": "6%",
@@ -2201,7 +2201,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol North West": {
-    "council": "Bristol",
+    "council": "Bristol, City of",
     "childrentotal": "15,645",
     "sendchildrem": "3,443",
     "echp_all_children_pct": "6%",
@@ -2232,7 +2232,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "93.2%"
   },
   "Bristol South": {
-    "council": "Bristol",
+    "council": "Bristol, City of",
     "childrentotal": "16,898",
     "sendchildrem": "4,134",
     "echp_all_children_pct": "7%",
@@ -7440,7 +7440,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "83.5%"
   },
   "Isle of Wight East": {
-    "council": "Isle of Wight",
+    "council": "the Isle of Wight",
     "childrentotal": "7,548",
     "sendchildrem": "1,705",
     "echp_all_children_pct": "6%",
@@ -7471,7 +7471,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "#VALUE!"
   },
   "Isle of Wight West": {
-    "council": "Isle of Wight",
+    "council": "the Isle of Wight",
     "childrentotal": "9,465",
     "sendchildrem": "2,309",
     "echp_all_children_pct": "8%",
@@ -7750,7 +7750,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "23.6%"
   },
   "Kingston upon Hull East": {
-    "council": "Hull",
+    "council": "Kingston upon Hull, City of",
     "childrentotal": "17,564",
     "sendchildrem": "3,762",
     "echp_all_children_pct": "6%",
@@ -7781,7 +7781,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "68.5%"
   },
   "Kingston upon Hull North and Cottingham": {
-    "council": "Hull",
+    "council": "Kingston upon Hull, City of",
     "childrentotal": "20,178",
     "sendchildrem": "3,890",
     "echp_all_children_pct": "5%",
@@ -7812,7 +7812,7 @@ const dataSet = { "constituencyData": {
     "4months_pct": "68.5%"
   },
   "Kingston upon Hull West and Haltemprice": {
-    "council": "Hull",
+    "council": "Kingston upon Hull, City of",
     "childrentotal": "15,276",
     "sendchildrem": "3,334",
     "echp_all_children_pct": "7%",
