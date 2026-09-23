@@ -150,7 +150,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
@@ -801,7 +801,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "226",
     "appeal_rate_2025": "11",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "East Sussex",
     "4months_pct": "59.2%"
   },
@@ -1421,7 +1421,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
@@ -1700,7 +1700,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "Widespread and/or systemic failings",
     "4months": "1",
     "appeal_rate_2025": "9.4",
-    "quote": "“The delays and failures we have experienced throughout the EHCP process and in securing an appropriate educational placement have had a profound impact on our family. What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“The delays and failures we have experienced throughout the EHCP process and in securing an appropriate educational placement have had a profound impact on our family. What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Berkshire",
     "4months_pct": "0.8%"
   },
@@ -3219,7 +3219,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
@@ -3281,7 +3281,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "274",
     "appeal_rate_2025": "3.4",
-    "quote": "What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Wiltshire",
     "4months_pct": "39.7%"
   },
@@ -3777,7 +3777,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
@@ -4645,7 +4645,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "226",
     "appeal_rate_2025": "11",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "East Sussex",
     "4months_pct": "59.2%"
   },
@@ -4800,7 +4800,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "274",
     "appeal_rate_2025": "3.4",
-    "quote": "What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Wiltshire",
     "4months_pct": "39.7%"
   },
@@ -4831,7 +4831,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
@@ -4862,7 +4862,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "226",
     "appeal_rate_2025": "11",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Eastbourne",
     "4months_pct": "59.2%"
   },
@@ -6567,7 +6567,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "226",
     "appeal_rate_2025": "11",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "East Sussex",
     "4months_pct": "59.2%"
   },
@@ -7187,7 +7187,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
@@ -8303,7 +8303,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "226",
     "appeal_rate_2025": "11",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "East Sussex",
     "4months_pct": "59.2%"
   },
@@ -9109,7 +9109,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "274",
     "appeal_rate_2025": "3.4",
-    "quote": "What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Wiltshire",
     "4months_pct": "39.7%"
   },
@@ -9419,7 +9419,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
@@ -12333,7 +12333,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "274",
     "appeal_rate_2025": "3.4",
-    "quote": "What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Wiltshire",
     "4months_pct": "39.7%"
   },
@@ -13511,7 +13511,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "274",
     "appeal_rate_2025": "3.4",
-    "quote": "What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Wiltshire",
     "4months_pct": "39.7%"
   },
@@ -14596,7 +14596,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "226",
     "appeal_rate_2025": "11",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "East Sussex",
     "4months_pct": "59.2%"
   },
@@ -14689,7 +14689,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "351",
     "appeal_rate_2025": "7.1",
-    "quote": "What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Swindon North",
     "4months_pct": "88.2%"
   },
@@ -14720,7 +14720,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "351",
     "appeal_rate_2025": "7.1",
-    "quote": "What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.",
+    "quote": "“What should have been a system designed to identify my daughter’s needs, provide support and give her the best possible start has instead left her without the education and provision she needs at a crucial stage of her development.”",
     "parent_location": "Swindon",
     "4months_pct": "88.2%"
   },
@@ -16642,7 +16642,7 @@ const dataSet = { "constituencyData": {
     "Outcome": "led to positive experiences and outcomes",
     "4months": "179",
     "appeal_rate_2025": "6.5",
-    "quote": "The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
+    "quote": "“The emotional turmoil both physically and mentally that impact every family member is not considered. Relationships breakdown, people have to give up their paid job to give extra support in looking after the child, which causes more stress due to financial worries. People's lives are often turned upside down in caring for a disabled child, but who will continue to be there through every battle and situation to make sure their child has a voice and that their legal rights are being met? It is a 24/7 job of love, determination and dedication.”",
     "parent_location": "Sussex",
     "4months_pct": "41.1%"
   },
